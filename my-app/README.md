@@ -1,10 +1,10 @@
 # Web Development Project 7 - *Name of App Here*
 
-Submitted by: **Your Name Here**
+Submitted by: **Roshan Sapkota**
 
-This web app: **insert description**
+This web app: **Crewmates**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
