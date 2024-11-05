@@ -1,0 +1,208 @@
+/* Body Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Container Styles */
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background-color: #007bff;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #0056b3;
+  border-radius: 4px;
+}
+
+/* CreateCrewmate Styles */
+.create-crewmate {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.create-crewmate form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-crewmate input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.create-crewmate button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.create-crewmate button:hover {
+  background-color: #0056b3;
+}
+
+.attributes button {
+  margin-right: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
+
+.attributes button:hover {
+  background-color: #d0d0d0;
+}
+
+.message {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+/* CrewmateList Styles */
+.crewmate-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.crewmate-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.crewmate-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.crewmate-list li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.crewmate-list li a:hover {
+  text-decoration: underline;
+}
+
+.crewmate-list button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #dc3545;
+  color: white;
+  cursor: pointer;
+}
+
+.crewmate-list button:hover {
+  background-color: #c82333;
+}
+
+/* CrewmateDetails Styles */
+.crewmate-details {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.crewmate-details h1 {
+  margin-bottom: 20px;
+}
+
+.crewmate-details p {
+  margin-bottom: 10px;
+}
+
+.crewmate-details a {
+  display: inline-block;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.crewmate-details a:hover {
+  background-color: #0056b3;
+}
+
+/* UpdateCrewmate Styles */
+.update-crewmate {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.update-crewmate form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-crewmate input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-crewmate button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.update-crewmate button:hover {
+  background-color: #0056b3;
+}
