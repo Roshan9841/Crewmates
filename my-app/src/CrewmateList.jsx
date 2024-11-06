@@ -16,7 +16,7 @@ function CrewmateList() {
   }, []);
 
   const handleDelete = async (id) => {
-    const { error } = await supabase.from('crewmates').delete().eq('id', id);
+    const { error } = await supabase.from('Crewmates').delete().eq('id', id);
     if (error) console.error(error);
     else setCrewmates(crewmates.filter(crewmate => crewmate.id !== id));
   };

@@ -9,7 +9,7 @@ function CrewmateDetails() {
 
   useEffect(() => {
     const fetchCrewmate = async () => {
-      const { data, error } = await supabase.from('crewmates').select('*').eq('id', id).single();
+      const { data, error } = await supabase.from('Crewmates').select('*').eq('id', id).single();
       if (error) console.error(error);
       else setCrewmate(data);
     };
@@ -21,8 +21,8 @@ function CrewmateDetails() {
   return (
     <div className="crewmate-details">
       <h1>{crewmate.name}</h1>
-      <p>Attributes: {crewmate.attributes}</p>
-      <p>Category: {crewmate.category}</p>
+      <p>Speed: {crewmate.speed}</p>
+      <p>Color: {crewmate.color}</p>
       <Link to={`/update/${crewmate.id}`}>Update</Link>
     </div>
   );
